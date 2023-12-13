@@ -1,0 +1,237 @@
+/* ############/ Google Fonts links /############ */
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Harmattan:wght@700&family=Montserrat:wght@700&family=Roboto:wght@500&family=Stalemate&display=swap");
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: px;
+}
+
+body {
+  font-family: "Didact Gothic", sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.ff-mont {
+  font-family: "Montserrat", sans-serif;
+}
+
+.ff-robo {
+  font-family: "Roboto", sans-serif;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fs-20 {
+  font-size: 17px;
+}
+
+.max-width {
+  max-width: 700px;
+}
+
+
+.w-fit {
+  width: fit-content;
+}
+
+.space-letter {
+  letter-spacing: 5px;
+}
+
+.space-letter2 {
+  letter-spacing: 3px;
+}
+
+/* =================/ start landing /================= */
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+    url("../images/landing.jpg") center / cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .content h1 {
+  color: #2c96dd;
+}
+
+header .content h1 svg {
+  transition: all 0.5s;
+}
+
+header .content h1 svg:hover {
+  transform: rotateX(180deg);
+  color: #1c608d;
+}
+
+h5::after {
+  content: "";
+  font-weight: 900;
+  animation: typing 9s linear infinite;
+}
+
+@keyframes typing {
+  0% {
+    content: "";
+  }
+  0.925925925925926% {
+    content: "W";
+  }
+  1.851851851851852% {
+    content: "WI";
+  }
+  2.777777777777778% {
+    content: "WIS";
+  }
+  3.703703703703704% {
+    content: "WISD";
+  }
+  4.62962962962963% {
+    content: "WISDO";
+  }
+  5.555555555555556% {
+    content: "WISDOM";
+  }
+  26.851851851851855% {
+    content: "WISDOM";
+  }
+  27.77777777777778% {
+    content: "WISDO";
+  }
+  28.703703703703706% {
+    content: "WISD";
+  }
+  29.629629629629633% {
+    content: "WIS";
+  }
+  30.555555555555557% {
+    content: "WI";
+  }
+  31.481481481481485% {
+    content: "W";
+  }
+  33.333333333333336% {
+    content: "";
+  }
+  35.18518518518519% {
+    content: "W";
+  }
+  37.03703703703704% {
+    content: "WI";
+  }
+  38.88888888888889% {
+    content: "WIT";
+  }
+  59.25925925925927% {
+    content: "WIT";
+  }
+  61.111111111111114% {
+    content: "WI";
+  }
+  62.96296296296297% {
+    content: "W";
+  }
+  66.66666666666667% {
+    content: "";
+  }
+  67.5925925925926% {
+    content: "q";
+  }
+  68.51851851851852% {
+    content: "qu";
+  }
+  69.44444444444444% {
+    content: "quo";
+  }
+  70.37037037037038% {
+    content: "quot";
+  }
+  71.2962962962963% {
+    content: "quote";
+  }
+  72.22222222222223% {
+    content: "quotes";
+  }
+  93.51851851851852% {
+    content: "quotes";
+  }
+  94.44444444444444% {
+    content: "quote";
+  }
+  95.37037037037037% {
+    content: "quot";
+  }
+  96.29629629629629% {
+    content: "quo";
+  }
+  97.22222222222223% {
+    content: "qu";
+  }
+  98.14814814814815% {
+    content: "q";
+  }
+  100% {
+    content: "";
+  }
+}
+
+header .text {
+  backdrop-filter: blur(15px) saturate(200%);
+  -webkit-backdrop-filter: blur(15px) saturate(200%);
+  background-color: rgba(255, 255, 255, 0.22);
+  border-radius: 12px;
+  transition: all 0.1s;
+}
+
+header .text .quotes:before {
+  content: "\201C" !important;
+  font-family: "Harmattan", sans-serif;
+  color: #2c96dd;
+  font-size: 50px;
+  position: absolute;
+  top: -25px;
+  left: -30px;
+}
+
+header .text .quotes:after {
+  content: "\201D" !important;
+  font-family: "Harmattan", sans-serif;
+  color: #2c96dd;
+  font-size: 50px;
+  position: absolute;
+  bottom: -55px;
+  right: -25px;
+}
+
+header h4 {
+  text-align: end;
+  padding-top: 50px;
+  font-family: "Stalemate", cursive;
+  font-size: 35px;
+  letter-spacing: 1px;
+}
+
+header .btn {
+  background-color: #2c96dd;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+header .btn:hover {
+  background-color: transparent;
+  color: #2c96dd;
+  border: 1.5px solid #2c96dd;
+}
